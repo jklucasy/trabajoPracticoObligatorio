@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.new-light-300 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+}
+
+.new-regular-400 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+}
+
+.new-semi-bold-600 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+}
+
+.bg-new-primary {
+    background-color: rgb(59, 0, 0)!important;
+}
+
+.bg-new-secondary {
+    background-color: rgb(85, 85, 85)!important;
+}
+
+.new-color {
+    color: #ffff;
+    background-color: rgb(59, 0, 0)!important;
+}
+
+.new-hover {
+    background-color: transparent;
+}
+
+.new-hover:hover {
+    background-color: rgb(59, 0, 0)!important;
+    border-color: rgb(59, 0, 0)!important;
+}
+
+.new-hover-02 {
+    background-color: transparent;
+    color: #ffff;
+    border: solid 1px #ffff;
+}
+
+.new-hover-02:hover {
+    background-color: rgb(59, 0, 0)!important;
+    border-color: rgb(59, 0, 0)!important;
+    color: #ffff;
+}
+
+.new-color:hover {
+    background-color: rgb(216, 192, 59)!important;
+    border-color: rgb(216, 192, 59)!important;
+}
+
+.new-text-02 {
+    color: rgb(59, 0, 0)!important;
+}
+
+.new-color:focus {
+    background-color: rgb(59, 0, 0);
+}
+
+.new-bg {
+    background-color: rgb(85, 85, 85)!important;
+    color: #ffff;
+}
+
+.new-text {
+    color: #ffff!important;
+}
+
+.new-primary-text {
+    color: rgb(59, 0, 0)!important;
+}
+
+.new-secondary-text {
+    color: rgb(207, 176, 0)!important;
+}
+
+#new-index {
+    background-image: url(./../img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.new-vertical {
+    background: linear-gradient( 0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 33.333%, rgb(216, 192, 59) 66.666%, rgba(255, 255, 255, 0) 99.999%);
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.new-vertical:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+}
+
+.new-vertical:hover * {
+    color: white;
+    transition: .5s;
+}
+
+.new-vertical:hover .recent-work-content {
+    top: 50%;
+    margin-top: -2.5em;
+    position: absolute;
+}
